@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Delights</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .cake {
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .cake img {
+            max-width: 150px;
+            margin-right: 10px;
+        }
+        .cake-details {
+            flex: 1;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #444;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cake Delights</h1>
+        <p>Indulge in our delicious cake creations</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Cakes</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="cake">
+            <img src="imges/cake.jpg" alt="Chocolate Cake">
+            <div class="cake-details">
+                <h2>Chocolate Bliss Cake</h2>
+                <p>A rich and moist chocolate cake that's perfect for any occasion.</p>
+                <p>Price: $25.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="cake">
+            <img src="imges/cake2.jpg" alt="Strawberry Cake">
+            <div class="cake-details">
+                <h2>Strawberry Delight Cake</h2>
+                <p>A light and fruity strawberry cake that's a favorite among many.</p>
+                <p>Price: $22.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Cake Delights. All rights reserved.</p>
+    </footer>
+</body>
+</html>
